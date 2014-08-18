@@ -8,7 +8,7 @@ QT       += widgets
 
 TARGET = PopUpperLib
 TEMPLATE = lib
-
+VERSION = 1.0.2   # QT version upgrade to 5.2.2
 DEFINES += POPUPPERLIB_LIBRARY
 
 SOURCES += popupperlib.cpp \
