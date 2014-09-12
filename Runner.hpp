@@ -2,7 +2,7 @@
 #define RUNNER_HPP
 #include <QObject>
 #include <QThread>
-#include "../PopUpper/poppyupper.h"
+#include "PopUpper/poppyupper.h"
 #include <QTDebug>
 class Runner : public QObject
 {
