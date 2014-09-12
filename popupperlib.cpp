@@ -1,5 +1,5 @@
 #include "popupperlib.h"
-#include "../PopUpper/poppyupper.h"
+#include "PopUpper/poppyupper.h"
 #include <QApplication>
 #include <QThread>
 #include "Runner.hpp"

@@ -12,16 +12,16 @@ VERSION = 1.0.2   # QT version upgrade to 5.2.2
 DEFINES += POPUPPERLIB_LIBRARY
 
 SOURCES += popupperlib.cpp \
-    ../PopUpper/mainwindow.cpp \
-    ../PopUpper/poppyupper.cpp \
-    ../PopUpper/utilities.cpp
+    PopUpper/mainwindow.cpp \
+    PopUpper/poppyupper.cpp \
+    PopUpper/utilities.cpp
 
 HEADERS += popupperlib.h\
         popupperlib_global.h \
-    ../PopUpper/CSScolor.h \
-    ../PopUpper/mainwindow.h \
-    ../PopUpper/poppyupper.h \
-    ../PopUpper/utilities.h \
+    PopUpper/CSScolor.h \
+    PopUpper/mainwindow.h \
+    PopUpper/poppyupper.h \
+    PopUpper/utilities.h \
     Runner.hpp
 
 unix {
@@ -30,5 +30,5 @@ unix {
 }
 
 FORMS += \
-    ../PopUpper/mainwindow.ui \
-    ../PopUpper/poppyupper.ui
+    PopUpper/mainwindow.ui \
+    PopUpper/poppyupper.ui
